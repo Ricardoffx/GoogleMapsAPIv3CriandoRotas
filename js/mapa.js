@@ -10,6 +10,7 @@ function initialize() {
         zoom: 5,
 		center: latlng,
         mapTypeId: google.maps.MapTypeId.ROADMAP
+        travelMode: google.maps.Mode.TRANSIT
     };
 
     map = new google.maps.Map(document.getElementById("mapa"), options);
